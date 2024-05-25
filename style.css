@@ -1,0 +1,255 @@
+body {
+    width: auto;
+}
+
+.container {
+    background-image: url(images/banner-bk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: flex-end;
+    justify-content: flex-end;
+    color: #ffff;
+    padding: 60px;
+    font-size: 25px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.container button {
+    background-color: #4cc978;
+    color: #000000;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 10rem;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tittle {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text h2{
+    justify-content: flex-end;
+}
+
+.img2 button{
+    background-color: #4cc978;
+    color: #000000;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 10rem;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagenes {
+    background-color: #f3eeeece;
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    padding: 4rem;
+}
+
+.learn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    background-image: linear-gradient(170deg,rgb(255, 255, 255),50%,rgba(52,211,153,1)50%);
+}
+
+.web-information {
+    margin: 5rem;
+    align-content: center;
+}
+
+.web-information > h2 {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 0.8rem;
+}
+
+.web-information > p {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 3rem;
+}
+
+.web-information > button {
+    text-decoration: none;
+    color: white;
+    border: 1rem;
+    background-color: rgb(13, 13, 97);
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.information-inside > img{
+    height: 15rem;
+    padding-left: 7.5rem;
+    align-content: center;
+    margin-bottom: 3rem;
+}
+
+.information-reliable > img {
+    height: 15rem;
+    margin-left: 5rem;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+.Form-container {
+    background-image: url(images/contact-bk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffff;
+    padding:40px ;
+}
+
+.title_prices{
+    display: flex;
+    justify-content: center;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.plan_1 {
+    border: 30px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+}
+
+.mounth-white{
+    font-size: 10px;
+    text-align: center;
+  
+}
+
+.price-white{
+    font-size: 50px;
+    text-align: center;
+}
+
+.plan_1 button{
+    border-radius: 1rem;
+    height: 30px;
+    width: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.plan_2{
+    background-color: rgb(3, 20, 36);
+    color: #ffff;
+    border: 30px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+}
+
+.black {
+    font-size: 50px;
+    text-align: center;
+}
+
+.plan_2 > button{
+  background:#4cc978;
+  border-radius: 1rem;
+  height: 30px;
+  width: 100px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.plan_3{
+    border: 30px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.plan_3 > button{
+    border-radius: 1rem;
+    height: 30px;
+    width: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.mounth{
+    font-size: 50px;
+    text-align: center;
+}
+
+.first {
+    display: flex;
+    color: #4cc978;
+    gap: 10px;
+    background: local;
+}
+
+.second{
+    color: #4cc978;
+}
+
+.name > input{
+    background-image: url(images/contact-bk.jpg);
+    border: 1px solid #4cc978;
+}
+
+.Gmail > input{
+    background-image: url(images/contact-bk.jpg);
+    border: 1px solid #4cc978;
+}
+
+.message{
+    background-image: url(images/contact-bk.jpg);
+    height: 30px;
+    width: 345px;
+    border-radius: 1rem ;
+    border: 1px solid #4cc978;
+}
+
+footer{
+    background-color: rgb(2, 2, 41);
+}
+
+.social {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;   
+}
